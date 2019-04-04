@@ -4,7 +4,7 @@ This is a simple SharePoint web part built in SharePoint Framework (SPFx) 1.7 us
 
 ## Building Your Own Web Part
 
-This solution is intended to accompany [Introduction to SharePoint Framework](https://sharepointfx.io/), an online educational course that helps you to learn modern SharePoint Framework development techniques. Learn how to build your own dashboard web part by following the lessons found at [sharepointfx.io](https://sharepointfx.io/).
+This solution is intended to accompany [Introduction to SharePoint Framework](https://sharepointfx.io/), an online educational course that helps you to learn modern SharePoint Framework development techniques. Learn how to build your own web parts by following the lessons found at [sharepointfx.io](https://sharepointfx.io/).
 
 ## Getting Started
 
