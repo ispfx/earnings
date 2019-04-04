@@ -1,26 +1,34 @@
-## earnings
+# earnings
 
-This is where you include your WebPart documentation.
+This is a simple SharePoint web part built in SharePoint Framework (SPFx) 1.7 using the React SPFx template. This web part provides dynamic data to other web parts on the page.
 
-### Building the code
+## Building Your Own Web Part
+
+This solution is intended to accompany [Introduction to SharePoint Framework](https://sharepointfx.io/), an online educational course that helps you to learn modern SharePoint Framework development techniques. Learn how to build your own dashboard web part by following the lessons found at [sharepointfx.io](https://sharepointfx.io/).
+
+## Getting Started
 
 ```bash
-git clone the repo
+# Install dependencies
 npm i
-npm i -g gulp
-gulp
+
+# Run the local workbench
+gulp serve
 ```
 
-This package produces the following:
+## Deploying to SharePoint
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+```bash
+# Bundle the solution
+gulp bundle --ship
 
-### Build options
+# Package the solution
+#  - This creates a sharepoint/solution/earnings.sppkg file
+gulp package-solution --ship
+```
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+Once you have a `earnings.sppkg` file, you can deploy this to your SharePoint environment's [App Catalog](https://docs.microsoft.com/en-us/sharepoint/use-app-catalog). See the **Deploying and Updating Solutions** lesson for more information on solution deployment.
+
+## Learn More
+
+For more information about the structure and functionality of this solution, see the [official SharePoint Framework documentation](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
