@@ -19,7 +19,7 @@
     "group": { "default": "Other" },
     "title": { "default": "Earnings" },
     "description": { "default": "A simple earnings list, provides a dynamic data source" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "Financial",
     "properties": {
       "earnings": [
         {
