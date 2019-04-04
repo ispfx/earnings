@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "earnings-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/earnings/EarningsWebPart.js",
+          "manifest": "./src/webparts/earnings/EarningsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EarningsWebPartStrings": "lib/webparts/earnings/loc/{locale}.js"
+  }
+}
